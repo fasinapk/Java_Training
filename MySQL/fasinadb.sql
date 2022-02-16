@@ -1,0 +1,10 @@
+create database fasinadb;
+use fasinadb;
+create table EMP(empid int not null,empname varchar(20),age int);
+select * from EMP;
+insert into EMP(empid,empname,age)values(1,'fasina',24);
+select * from EMP;
+insert into EMP(empid,empname,age)values(2,'ammmu',25);
+select * from EMP;
+update EMP set age = 26 where empid = 2;
+select * from EMP;
